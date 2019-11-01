@@ -1,7 +1,10 @@
 #!/bin/bash
+echo "root:"
 ls
 cd Launchpad
-input="../FioriLaunchpadExtensions/Plugins.txt"
+echo "launchpad:"
+ls
+input="../Plugins.txt"
 echo "Start Building Fiori Launchpad"
 while IFS= read line
 do
