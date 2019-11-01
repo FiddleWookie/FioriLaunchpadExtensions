@@ -1,0 +1,8 @@
+os:
+  - linux
+before_script:
+  - git clone https://github.com/FiddleWookie/Launchpad.git
+script: bash ./Build.sh
+after_script:
+  - git add -A
+  - git commit -m "Travis build $TRAVIS_BUILD_NUMBER"

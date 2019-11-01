@@ -1,6 +1,4 @@
 #!/bin/bash
-git clone https://github.com/FiddleWookie/Launchpad.git
-
 cd Launchpad
 input="../FioriLaunchpadExtensions/Plugins.txt"
 echo "Start Building Fiori Launchpad"
@@ -14,6 +12,3 @@ do
 done < "$input"
 
 echo "End Building Fiori Launchpad"
-
-git add -A
-git commit -m "Travis build $TRAVIS_BUILD_NUMBER"
