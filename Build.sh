@@ -1,4 +1,5 @@
 #!/bin/bash
+ls
 cd Launchpad
 input="../FioriLaunchpadExtensions/Plugins.txt"
 echo "Start Building Fiori Launchpad"
