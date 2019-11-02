@@ -1,7 +1,4 @@
 #!/bin/bash
-echo "root:"
-ls
-cd Launchpad
 echo "launchpad:"
 ls
 input="../Plugins.txt"
