@@ -9,5 +9,10 @@ before_script:
   - npm install
 script: bash ../Build.sh
 after_script:
+  - git config --global user.email "travis@travis-ci.org"
+  - git config --global user.name "Travis CI"
   - git add -A
   - git commit -m "Travis build $TRAVIS_BUILD_NUMBER"
+  - git remote rm origin
+  - git remote add origin https://lemaiwo:$GH_TOKEN@github.com/FiddleWookie/Launchpad.git
+  - git push origin test
