@@ -4,7 +4,7 @@ node_js:
 os:
   - linux
 before_script:
-  - git clone --branch test https://github.com/FiddleWookie/Launchpad.git
+  - git clone https://github.com/FiddleWookie/Launchpad.git
   - cd Launchpad
   - npm install
 script: bash ../Build.sh
@@ -15,4 +15,4 @@ after_script:
   - git commit -m "Travis build $TRAVIS_BUILD_NUMBER"
   - git remote rm origin
   - git remote add origin https://lemaiwo:$GH_TOKEN@github.com/FiddleWookie/Launchpad.git
-  - git push origin test
+  - git push origin master
