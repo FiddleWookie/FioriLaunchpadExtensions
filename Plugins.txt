@@ -1,1 +1,4 @@
 fiori-user-picture-plugin
+ui5-pluginmanager
+ui5-snowflakes
+ui5-hideemptygroups
