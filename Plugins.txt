@@ -3,3 +3,5 @@ ui5-pluginmanager
 ui5-snowflakes
 ui5-hideemptygroups
 fiori-whats-new-plugin
+fiori-language-plugin
+fiori-google-analytics-plugin
