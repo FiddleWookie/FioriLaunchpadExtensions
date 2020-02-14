@@ -6,3 +6,4 @@ fiori-whats-new-plugin
 fiori-language-plugin
 fiori-google-analytics-plugin
 ui5-plugins-heartfelt
+ui5-valentine
